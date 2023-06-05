@@ -20,7 +20,7 @@ const AddTaskModal = ({ show, setShow }) => {
     useFormik({
       initialValues,
       validationSchema: validationSchema,
-      onSubmit: (values, action ) => {
+      onSubmit: (values, action) => {
         console.log(values);
         const { title, description, status = false } = values;
         console.log(title, description, status);
@@ -43,8 +43,6 @@ const AddTaskModal = ({ show, setShow }) => {
       queryClient.invalidateQueries("tasks");
     },
   });
-
-  
 
   return (
     <div>
