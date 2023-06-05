@@ -18,7 +18,7 @@ const connect = async () => {
     }
 }
 
-app.use(cors({origin: ['http://localhost:5173', 'http://localhost:5174', 'https://task-management-kvox.onrender.com'], credentials: true}))
+app.use(cors({origin: ['http://localhost:5173', 'http://localhost:5174', 'https://task-management-three-puce.vercel.app'], credentials: true}))
 
 app.use(express.json())
 app.use(cookieParser())
