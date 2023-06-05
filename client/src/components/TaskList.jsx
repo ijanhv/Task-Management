@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import newRequest from "../utils/newREquest";
 import TaskCard from "./TaskCard";
 import { AiOutlinePlus } from "react-icons/ai";
 import AddTaskModal from "./AddTaskModal";
+import newRequest from "../utils/newRequest";
 
 const TaskList = () => {
   const [modal, setModal] = useState(false);

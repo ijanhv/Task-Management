@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import newRequest from "../utils/newREquest";
+import newRequest from "../utils/newRequest";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 const UpdateTaskModal = ({ show, setShow, id, title, description, status }) => {

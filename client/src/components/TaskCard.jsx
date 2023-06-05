@@ -3,9 +3,9 @@ import Tilt from "react-parallax-tilt";
 import { AiOutlineEdit } from "react-icons/ai";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import newRequest from "../utils/newREquest";
 import UpdateTaskModal from "./UpdateTaskModal";
 import { AiOutlineCheck } from "react-icons/ai";
+import newRequest from "../utils/newRequest";
 
 const TaskCard = ({ id, title, description, status }) => {
   const queryClient = useQueryClient();
