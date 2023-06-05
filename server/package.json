@@ -5,7 +5,8 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --inspect server.js"
+    "start": "nodemon --inspect server.js",
+    "dev": "node server.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.6",
